@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Viewpoint</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+			integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="/index.css" />
+	</head>
+	<body>
+		<div id="blackout" class="hidden"></div>
+		<nav id="top-nav">
+			<span id="title">Viewpoint</span>
+			<div id="sign-in" class="hidden">
+				<span>Login With GitHub <i class="fa-brands fa-github"></i></span>
+			</div>
+			<div id="menu" class="hidden"></div>
+		</nav>
+
+		<div id="drop-menu" class="hidden">
+			<div id="profile">Profile</div>
+			<div id="create">Create</div>
+			<div id="logout">Logout</div>
+		</div>
+
+		<div id="container-content">
+			<div class="bar-anm placeholder hidden">
+				<div class="rectangle"></div>
+				<div class="rectangle"></div>
+				<div class="rectangle"></div>
+			</div>
+			<div id="container-projects" class="hidden"></div>
+			<div class="pagination hidden"></div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+			integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"
+			integrity="sha512-wT7uPE7tOP6w4o28u1DN775jYjHQApdBnib5Pho4RB0Pgd9y7eSkAV1BTqQydupYDB9GBhTcQQzyNMPMV3cAew=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="/global.js"></script>
+		<script src="/index.js"></script>
+	</body>
+</html>
